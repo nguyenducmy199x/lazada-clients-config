@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: lazada-config
+    name: lazada-server
 
   datasource:
     url: jdbc:postgresql://52.62.99.94:5432/lazada
