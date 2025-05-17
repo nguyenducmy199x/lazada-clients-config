@@ -31,6 +31,6 @@ aws:
   bucket:
     name: ${AWS_BUCKET_NAME}
   access:
-    key: ${AWS_ACCESS_KEY_ID}
+    key: AKIAUWGWE2FUM2LRJI47
   secret:
     key: ${AWS_SECRET_ACCESS_KEY}
