@@ -1,0 +1,36 @@
+server:
+  port: 9090
+
+spring:
+  application:
+    name: lazada-config
+
+  datasource:
+    url: jdbc:postgresql://52.62.99.94:5432/lazada
+    username: root
+    password: 123456789
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    url: /v3/api-docs
+  info:
+    title: Lazada
+    version: v1
+
+aws:
+  region: ap-southeast-2
+  bucket:
+    name: ${AWS_BUCKET_NAME}
+  access:
+    key: ${AWS_ACCESS_KEY_ID}
+  secret:
+    key: ${AWS_SECRET_ACCESS_KEY}
