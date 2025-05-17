@@ -29,7 +29,7 @@ springdoc:
 aws:
   region: ap-southeast-2
   bucket:
-    name: ${AWS_BUCKET_NAME}
+    name: mylazada
   access:
     key: AKIAUWGWE2FUM2LRJI47
   secret:
